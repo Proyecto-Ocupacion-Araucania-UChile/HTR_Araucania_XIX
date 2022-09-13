@@ -1,5 +1,7 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa][![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7075075.svg)](https://doi.org/10.5281/zenodo.7075075)
 
+![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
+
 # HTR - Araucania manuscript XIXe
 
 Ground Truth dataset for Spanish 19th typewritten OCR. 
