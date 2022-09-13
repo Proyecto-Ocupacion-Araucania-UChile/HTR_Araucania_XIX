@@ -57,7 +57,7 @@ JSONL file for NER annotation in `ner/`
 ```
 name: 'AraucaniaCorpus'
 url: 'https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX'
-author: {'Maxime Humeau', 'Alessandro Chiaretti'}
+author: 'Maxime Humeau', 'Alessandro Chiaretti'
 month: 'september'
 year: '2022'
 version: '{any version}'
