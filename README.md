@@ -29,9 +29,9 @@ To use them for segmentation/recognition model training, please contact me : arc
 
 Règles de transcription :
 
-- xxx pour les caractères éfacés ou illisibles
-- ^+lettres pour les lettres superscripts
-- ⁋ pour nouveau paragraphe
+- `xxx` pour les caractères éfacés ou illisibles
+- `^+letters` pour les lettres superscripts
+- `⁋` pour nouveau paragraphe
 
 Utilisation du moteur OCR Kraken en finetuning avec le modèle Menu_MacFrench. Un modèle utilise la méthode NFKD.
 
