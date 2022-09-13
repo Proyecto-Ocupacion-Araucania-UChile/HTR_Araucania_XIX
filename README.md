@@ -39,10 +39,10 @@ Using the Kraken OCR engine in finetuning with the Menu_MacFrench template. A te
 
 ## Evaluation
 
-| **Name**                   | **Quantity (GT)** | **Val_acc** | **Test_acc** | **CER** |
-|:--------------------------:|:-----------------:|:-----------:|:------------:|:-------:|
-| **HTR-Araucania_XIX**      | 180               | 0,90354     | 0,8673       | 0,05598 |
-| **HTR-Araucania_XIX_NFKD** | 180               | 0,89872     | 0,8563       | 0,06646 |
+| **Name**                   | **Quantity (GT)** | **Val_acc** | **Test_acc** | **CER** | **WER** |
+|:--------------------------:|:-----------------:|:-----------:|:------------:|:-------:|:-------:|
+| **HTR-Araucania_XIX**      | 180               | 0,90354     | 0,8673       | 0,05598 | 0,21423 |
+| **HTR-Araucania_XIX_NFKD** | 180               | 0,89872     | 0,8563       | 0,06646 | 0.24963 |
 
 
 ## Others
