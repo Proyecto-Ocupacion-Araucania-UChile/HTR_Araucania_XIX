@@ -29,13 +29,13 @@ To use them for segmentation/recognition model training, please contact me : arc
 
 ## Methodology
 
-Règles de transcription :
+Transcription rules :
 
-- `xxx` pour les caractères éfacés ou illisibles
-- `^+letters` pour les lettres superscripts
-- `⁋` pour nouveau paragraphe
+- `xxx` for blurred or unreadable characters
+- `^+letters` for superscript letters
+- `⁋` for new paragraph
 
-Utilisation du moteur OCR Kraken en finetuning avec le modèle Menu_MacFrench. Un modèle utilise la méthode NFKD.
+Using the Kraken OCR engine in finetuning with the Menu_MacFrench template. A template uses the NFKD method.
 
 ## Evaluation
 
