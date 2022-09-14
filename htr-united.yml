@@ -2,23 +2,21 @@ schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: HTR - Araucania manuscript XIX
 url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
 authors:
-  - name: Humeau
-    surname: Maxime
-  - name: Chiaretti
-    surname: Alessandro
+- name: Humeau
+  surname: Maxime
+- name: Chiaretti
+  surname: Alessandro
 institutions:
-  - name: Archivo Central Andres Bello
-description: >-
-  Ground Truth dataset for Spanish 19th typewritten OCR. 
-
-  The archives come from the events of the Occupation of Araucania (1850-1881)
-  in Chile. They are archived in the ’Colección manuscritos' of the Archivo
-  Central Andres Bello - Universidad de Chile.
+- name: Archivo Central Andres Bello
+description: "Ground Truth dataset for Spanish 19th typewritten OCR. \nThe archives\
+  \ come from the events of the Occupation of Araucania (1850-1881) in Chile. They\
+  \ are archived in the \u2019Colecci\xF3n manuscritos' of the Archivo Central Andres\
+  \ Bello - Universidad de Chile."
 language:
-  - spa
+- spa
 production-software: eScriptorium + Kraken
 script:
-  - iso: Latn
+- iso: Latn
 script-type: mainly-manuscript
 time:
   notBefore: '1859'
@@ -27,13 +25,114 @@ hands:
   count: more-than-10
   precision: estimated
 license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
+- name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
 format: Alto-XML
 volume:
-  - metric: files
-    count: 180
-transcription-guidelines: |
-  - xxx for erased or unreadable characters
-  - ^+letters for superscript letters
-  - ⁋ for new paragraph
+- metric: characters
+  count: 117155
+- metric: files
+  count: 180
+- metric: lines
+  count: 3932
+- metric: regions
+  count: 981
+transcription-guidelines: "- xxx for erased or unreadable characters\n- ^+letters\
+  \ for superscript letters\n- \u204B for new paragraph\n"
+characters:
+  mode: NFD
+  members:
+  - e
+  - a
+  - o
+  - n
+  - s
+  - r
+  - i
+  - d
+  - l
+  - u
+  - t
+  - c
+  - m
+  - p
+  - q
+  - b
+  - "\u0301"
+  - g
+  - .
+  - h
+  - ','
+  - "\u204B"
+  - v
+  - '-'
+  - f
+  - y
+  - S
+  - C
+  - '0'
+  - ^
+  - A
+  - j
+  - U
+  - '1'
+  - z
+  - x
+  - D
+  - M
+  - "\u0303"
+  - E
+  - '2'
+  - L
+  - P
+  - N
+  - '8'
+  - V
+  - J
+  - B
+  - T
+  - G
+  - '6'
+  - I
+  - '5'
+  - '3'
+  - ':'
+  - '9'
+  - '4'
+  - H
+  - R
+  - '7'
+  - ;
+  - O
+  - "\u201C"
+  - "\xBA"
+  - "\u201D"
+  - F
+  - Q
+  - Y
+  - "\u0304"
+  - '*'
+  - _
+  - '='
+  - $
+  - (
+  - '"'
+  - )
+  - "\xBF"
+  - /
+  - "\u0300"
+  - '?'
+  - "\u0308"
+  - "\xA1"
+  - '!'
+  - '{'
+  - '~'
+  - '}'
+  - '&'
+  - W
+  - Z
+  - "\u2018"
+  - "\u2019"
+  - K
+  - '['
+  - ']'
