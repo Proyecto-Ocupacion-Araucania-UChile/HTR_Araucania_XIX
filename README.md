@@ -39,6 +39,7 @@ Transcription rules :
 
 Using the Kraken OCR engine in finetuning with the Menu_MacFrench template. A template uses the NFKD method.
 
+
 ## Evaluation
 
 | **Name**                   | **Quantity (GT)** | **Val_acc** | **Test_acc** | **CER** | **WER** |
